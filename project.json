@@ -1,0 +1,37 @@
+{
+  "name": "New Project",
+  "noteTypes": [
+    {
+      "id": 1627650485471,
+      "name": "Basic (panki)",
+      "fields": [
+        "Front",
+        "Back"
+      ],
+      "cardTypes": [
+        {
+          "name": "Card",
+          "template": "template.html"
+        }
+      ]
+    }
+  ],
+  "decks": [
+    {
+      "id": 1627650485472,
+      "name": "New Deck",
+      "package": "deck.apkg",
+      "notes": [
+        {
+          "type": "Basic (panki)",
+          "data": [
+            "data.csv"
+          ]
+        }
+      ]
+    }
+  ],
+  "media": [
+    "media"
+  ]
+}

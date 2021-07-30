@@ -1,0 +1,20 @@
+<template>
+    <style>
+        .card {
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            color: black;
+            background-color: white;
+        }
+    </style>
+    <front>
+        {{Front}}
+        [sound:{{FrontSound}}.mp3]
+    </front>
+    <back>
+        {{FrontSide}}
+        <hr id="answer">
+        {{Back}}
+    </back>
+</template>
